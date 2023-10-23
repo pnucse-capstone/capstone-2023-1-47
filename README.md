@@ -7,7 +7,7 @@
 |---|---|---|
 |윤건우|glove2275@gmail.com|- dm-zoned 코드 분석 : bio, chunk<br>- Chunk – Group 매핑 알고리즘 설계<br>-  I/O Isolation 성능 평가|
 |황인욱||- 리눅스 환경 설정<br>- dm-zoned 코드 분석 : 구조체, bio<br>- 구조체 및 알고리즘 테스트 및 디버깅|
-|조준서||- 커널 분석 환경 설정<br>- dm-zoned 코드 분석 : 구조체, chunk 관련<br>- Chunk – Group 매핑 구조체 설계|
+|조준서|monstazo911@gmail.com|- 커널 분석 환경 설정<br>- dm-zoned 코드 분석 : 구조체, chunk 관련<br>- Chunk – Group 매핑 구조체 설계|
 # 3. 구성도
 ##
 ## 3. 개선된 동작 방식
