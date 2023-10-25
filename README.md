@@ -56,6 +56,14 @@
 
 - `linux-image-5.10.136_7.0_amd64.deb` 다운로드
 
+- 빌드 파일 설치
+
 ```
 sudo dpkg -i linux-image-5.10.136_1.0_amd64.deb
 ```
+
+- 재부팅
+```
+sudo shutdown now
+```
+
