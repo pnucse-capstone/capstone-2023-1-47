@@ -48,6 +48,14 @@
 
 <br>
 
-### 1. FEMU, dm-zoned 설치
+### 1. FEMU 설치 및 실행
 
-### 2. 
+### 2. 리눅스 커널, dm-zoned 설치 
+
+### 3. 빌드 파일 다운로드 및 설치
+
+- `linux-image-5.10.136_7.0_amd64.deb` 다운로드
+
+```
+sudo dpkg -i linux-image-5.10.136_1.0_amd64.deb
+```
