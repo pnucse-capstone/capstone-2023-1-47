@@ -7,6 +7,7 @@
   - **Linux Container**란 운영체제 수준의 가상화 기술로 단일 리눅스 커널에서 동작하고 있는 **각 프로세스를 격리시켜 독자적인 리눅스 시스템 환경을 구축**하는 것이다.
 - 목표
  <img width="625" alt="image" src="https://github.com/pnucse-capstone/capstone-2023-1-47/assets/83194164/a8de03a5-1148-4738-99d4-6e8781c35859">
+ 
   - **Dm-zoned**는 리눅스 커널에서 **기존의 파일 시스템과 ZNS SSD를 연결**해주는 역할을 하는 Device Mapper이다.
   - 기존의 Dm-zoned를 이용하면 컨테이너간의 Zone 격리가 일어나지 않아 **I/O 간섭**이 생긴다.
   -> **컨테이너간의 Zone 분리 할당 정책**을 개발하여 **I/O를 격리시키고 컨테이너의 성능을 향상** 시키는 것이 본 과제의 목표이다.
@@ -20,11 +21,13 @@
 
 ### 청크-그룹 매핑 테이블
 <img width="460" alt="image" src="https://github.com/pnucse-capstone/capstone-2023-1-47/assets/83194164/4a36785f-8c81-4e8e-adac-3c0f292c8efb">
+
 - Chunk와 Cgroup 사이의 매핑 관계를 배열로 저장한다.
 - 특정 Cgroup에게 할당된 Chunk를 기억한 후, 다른 Cgroup은 해당 Chunk에 할당되지 않도록 한다.
 
 ### Zone 할당 과정
 <img width="1218" alt="image" src="https://github.com/pnucse-capstone/capstone-2023-1-47/assets/83194164/d2243e60-0bc5-40db-8e5c-dd840eceed52">
+
 1. I/O를 실행하기 위해 컨테이너가 Dm-zoned에 요청
 2. 해당 컨테이너의 cgroup id를 확인
 3. 매핑 테이블을 확인하여, 해당 cgroup에 할당된 chunk가 없으면 새로운 chunk 할당 후 I/O 작업 요청
