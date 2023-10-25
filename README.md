@@ -36,3 +36,18 @@
 
 # 4. 소개 및 시연 영상
 # 5. 사용법
+
+### Environment
+
+<img width="625" alt="image" src="https://github.com/pnucse-capstone/capstone-2023-1-47/assets/83194164/a0e8c99b-c68a-461b-982d-78aa63046b8e">
+
+### Requirement
+
+- FEMU : [설치 및 사용법](https://github.com/vtess/FEMU)
+- dm-zoned : [설치 및 사용법](https://github.com/westerndigitalcorporation/dm-zoned-tools)
+
+<br>
+
+### 1. FEMU, dm-zoned 설치
+
+### 2. 
