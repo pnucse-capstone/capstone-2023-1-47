@@ -43,7 +43,8 @@
 
 # 4. 소개 및 시연 영상
 
-[![video](https://github.com/pnucse-capstone/capstone-2023-1-47/assets/97718735/6014ebec-9736-46ea-92fa-8919d4214a56)](https://youtu.be/_lDgS6Ckt_E?feature=shared)
+[![video](http://img.youtube.com/vi/_lDgS6Ckt_E/0.jpg)](https://youtu.be/_lDgS6Ckt_E)
+
 
 # 5. 사용법
 
